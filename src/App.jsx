@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <section id='main' className='min-h-screen mx-auto max-w-[92%] px-4 py-2'>
-          <div className='mt-6 flex justify-center items-center '><Header /></div>
+          <div className='mt-6 flex justify-center items-center '><Header/></div>
           <section id='available' className='flex justify-end'>
             <div className='bg-[#ffe7e6] rounded-2xl m-4 w-[20%] '>
               <p className='text-[#DC676F] text-center text-[20px] p-1'>Available to work</p>
