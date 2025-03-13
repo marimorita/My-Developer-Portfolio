@@ -1,8 +1,7 @@
 import React from 'react'
 import { IoIosMail } from "react-icons/io";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 import { AiFillSmile } from "react-icons/ai";
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export const ContactMe = () => {
   return (

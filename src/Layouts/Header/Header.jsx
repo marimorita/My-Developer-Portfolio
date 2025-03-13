@@ -3,7 +3,7 @@ import { NavBar } from '../NavBar/Navbar'
 
 export const Header = () => {
   return (
-    <div className='mx-auto max-w-[92%] px-4 py-2 bg-[#FFFAFA]'>
+    <div className='mx-auto max-w-[92%] px-4 py-2'>
       <div className='mt-6 flex justify-center items-center '><NavBar/></div>
       <div className='flex justify-end'>
         <div className='rounded-2xl mb-18 '>

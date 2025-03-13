@@ -1,8 +1,7 @@
 import React from 'react'
-import { FaGithub } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
+
 export const Footer = () => {
   return (
     <>

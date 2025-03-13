@@ -13,7 +13,7 @@ export const Experience = () => {
           <div className="flex flex-col">
             <div className='h-min-screen w-min-screen border-l-2 border-[#F2B5B9] relative'>
               <div className='h-[20px] w-[20px] absolute bg-[#DC676F] rounded-[100%] left-[-11px] top-2'></div>
-              <div className='ml-4'>
+              <div className='ml-4 mr-6'>
                 <h2 className='text-[#DC676F] text-[25px]'>Full Stack Developer</h2>
                 <h3 className='text-[#FF949B] text-[20px]'>EDUA (Empresa de desarrollo urbano de Armenia) Armenia's City Hall</h3>
                 <p className='text-[#776969] text-[18px]'> 2024-2025</p>

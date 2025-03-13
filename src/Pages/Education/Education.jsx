@@ -26,7 +26,7 @@ export const Education = () => {
                 <p className='text-[#776969] text-[18px]'>2023-2025</p>
               </div>
               <div>
-                <h2 className='text-[#DC676F] text-[25px]'>Technical High School Diploma in Software Analysis and Development"</h2>
+                <h2 className='text-[#DC676F] text-[25px] mt-8'>Technical High School Diploma in Software Analysis and Development"</h2>
                 <h3 className='text-[#E8868D] text-[20px]'>SENA</h3>
                 <p className='text-[#776969] text-[18px]'>2021-2022</p>
               </div>

@@ -1,16 +1,16 @@
 import React from 'react'
-import { LuHandshake, LuNotebookPen, LuBrain } from "react-icons/lu";
+import { TfiReload } from "react-icons/tfi";
 import { FaLaptopCode } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiMysql, SiTypescript } from "react-icons/si";
 import { FaFigma, FaReact, FaJava, FaNodeJs } from "react-icons/fa";
+import { LuHandshake, LuNotebookPen, LuBrain } from "react-icons/lu";
 import { RiTailwindCssFill, RiPlantLine, RiChatVoiceAiLine } from "react-icons/ri";
-import { TfiReload } from "react-icons/tfi";
 
 export const Skills = () => {
   return (
     <section id='skills'>
-      <div className='grid grid-cols-2 items-center mt-18'>
+      <div className='grid grid-cols-2 items-center mt-14'>
         <div className='col-span-1'>
           <div className='flex items-center justify-center mt-20'>
             <FaLaptopCode className='text-[#DC676F] text-[50px] mr-2 mb-2' />
