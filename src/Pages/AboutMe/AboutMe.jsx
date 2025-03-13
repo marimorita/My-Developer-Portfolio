@@ -6,7 +6,7 @@ export const AboutMe = () => {
         <section id='about me'>
             <div className='flex relative'>
                 <div className='absolute'>
-                    <div className='rounded-[100%] w-[20rem] h-[20rem] z-50 relative shadow-[#DC676F] drop-shadow-lg'>
+                    <div className='rounded-[100%] w-[20rem] h-[20rem] z-50 relative shadow-[#DC676F] drop-shadow-lg bg-[#ffcccb]'>
                         <img src={mari} alt="Mariana" className='absolute left-[-12px] w-[340px] max-w-none rounded-b-full top-[-8.6rem] object-cover object-bottom' />
                     </div>
                 </div>
