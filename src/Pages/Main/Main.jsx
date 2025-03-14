@@ -3,7 +3,7 @@ import { Header } from "../../Layouts/Header/Header.jsx"
 import { Skills } from "../Skills/Skills.jsx";
 import { Footer } from "../../Layouts/Footer/Footer.jsx";
 import { AboutMe } from "../AboutMe/AboutMe.jsx"
-import { Proyects } from "../Proyects/Proyects.jsx";
+import { Projects } from "../Projects/Projects.jsx";
 import { ContactMe } from "../ContactMe/ContactMe.jsx";
 import { Education } from "../Education/Education.jsx";
 import { Experience } from "../Experience/Experience.jsx";
@@ -16,7 +16,7 @@ export const Main = () => {
         <Header />
         <AboutMe />
         <Skills />
-        <Proyects />
+        <Projects />
         <Experience />
         <Education />
         <ContactMe />
