@@ -1,9 +1,9 @@
 import React from 'react'
 import { GiBriefcase } from "react-icons/gi";
 
-export const Experience = () => {
+export const Experience = ({refExperience}) => {
   return (
-    <section id='experience'>
+    <section ref={refExperience}>
       <div className='grid grid-cols-2 mt-26'>
         <div className='col-span-1'>
           <div className='flex flex-wrap '>

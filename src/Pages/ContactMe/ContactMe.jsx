@@ -3,9 +3,9 @@ import { IoIosMail } from "react-icons/io";
 import { AiFillSmile } from "react-icons/ai";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
-export const ContactMe = () => {
+export const ContactMe = ({refContactMe}) => {
   return (
-    <section id='contactMe'>
+    <section ref={refContactMe}>
     <div className="flex flex-wrap items-start mt-26">
       <div className="relative w-[50px] p-[19px] h-[80px] overflow-hidden">
         <div className="absolute left-0 animate-bounce">
@@ -30,5 +30,6 @@ export const ContactMe = () => {
           <p className='text-[#DC676F] text-[30px]'> mari morita 123</p>
         </div>
       </div>
-    </section>)
+    </section>
+    )
 }

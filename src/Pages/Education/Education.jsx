@@ -1,9 +1,9 @@
 import React from 'react'
 import { FaBook } from "react-icons/fa";
 
-export const Education = () => {
+export const Education = ({refEducation}) => {
   return (
-    <section id='education'>
+    <section ref={refEducation}>
       <div className='bg-[#ffd4d3] rounded-2xl mt-26 grid grid-cols-2'>
         <div className='col-span-1'>
           <div className='flex flex-wrap mt-4'>

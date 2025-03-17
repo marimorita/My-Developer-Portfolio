@@ -1,13 +1,13 @@
 import React from 'react'
 import mari from "../../assets/Images/m.png";
 
-export const AboutMe = () => {
+export const AboutMe = ({refAboutMe}) => {
     return (
-        <section id='about me'>
-            <div className='flex relative'>
+        <section ref={refAboutMe}>
+            <div className='flex relative pt-18'>
                 <div className='absolute'>
-                    <div className='rounded-[100%] w-[20rem] h-[20rem] z-50 relative shadow-[#DC676F] drop-shadow-lg bg-[#ffcccb] hover:scale-90 transition duration-300'>
-                        <img src={mari} alt="Mariana" className='absolute left-[-12px] w-[340px] max-w-none rounded-b-full top-[-8.6rem] object-cover object-bottom' />
+                    <div className='rounded-[100%] w-[20rem] h-[20rem] z-10 relative shadow-[#DC676F] drop-shadow-lg bg-[#ffcccb] hover:scale-90 transition duration-300'>
+                        <img src={mari} alt="Mariana" className='absolute left-[-12px] w-[340px] max-w-none rounded-b-full top-[-1.9rem] object-cover object-bottom' />
                     </div>
                 </div>
                 <div className="ml-[207px] bg-[#ffcccb] rounded-2xl w-[65rem] h-[20rem] px-4 rounded-r-[20px] relative">

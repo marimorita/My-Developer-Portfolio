@@ -4,9 +4,9 @@ import { IoCodeSlash } from "react-icons/io5";
 import ds from '../../assets/Images/DS.svg'
 import edua from '../../assets/Images/EduaAt.svg'
 
-export const Projects = () => {
+export const Projects = ({refProjects}) => {
   return (
-    <section id='projects'>
+    <section ref={refProjects}>
       <div className='bg-[#faecec] rounded-2xl mt-26 h-[28rem]'>
         <div className='flex flex-wrap'>
           <h1 className='h1 text-[50px] text-[#DC676F] ml-4'>Projects </h1>
