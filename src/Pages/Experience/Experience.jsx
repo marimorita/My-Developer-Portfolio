@@ -22,7 +22,7 @@ export const Experience = () => {
           </div>
         </div>
         <div className=' mt-18'>
-          <p className='text-[#DC676F] text-[20px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corrupti cupiditate tempore, optio consequatur, voluptate delectus quisquam quia enim, in architecto nostrum. Quas est, nostrum ipsam iste minima nihil laudantium?</p>
+          <p className='text-[#DC676F] text-[20px] text-justify'>This is my first job as a software developer. I developed an application for document management in the technical area of EDUA, at the Mayor’s Office of Armenia, Colombia. I worked independently since the company did not have a development team, which made it a great challenge and a valuable experience for my first job</p>
         </div>
       </div>
     </section>

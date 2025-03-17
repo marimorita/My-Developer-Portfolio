@@ -6,10 +6,14 @@ import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 export const ContactMe = () => {
   return (
     <section id='contactMe'>
-      <div className='flex flex-wrap mt-26 '>
-        <AiFillSmile className='text-[#DC676F] text-[45px] mt-2.5' />
-        <h1 className='h1 text-[#DC676F] text-[50px] ml-1'>Contact Me</h1>
+    <div className="flex flex-wrap items-start mt-26">
+      <div className="relative w-[50px] p-[19px] h-[80px] overflow-hidden">
+        <div className="absolute left-0 animate-bounce">
+          <AiFillSmile className="text-[#DC676F] text-[45px]" />
+        </div>
       </div>
+      <h1 className="text-[#DC676F] text-[50px] h1">Contact Me</h1>
+    </div>
       <div className=" flex flex-col gap-x-20 gap-10">
         <div className='flex flex-wrap gap-32 justify-center'>
           <div className='flex gap-2 items-center'>
