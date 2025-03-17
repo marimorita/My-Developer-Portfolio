@@ -1,12 +1,12 @@
 import React from 'react'
 import { TfiReload } from "react-icons/tfi";
+import { ListSkills } from '../../components/ListSkills/ListSkills';
 import { FaLaptopCode } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiMysql, SiTypescript } from "react-icons/si";
 import { FaFigma, FaReact, FaJava, FaNodeJs } from "react-icons/fa";
 import { LuHandshake, LuNotebookPen, LuBrain } from "react-icons/lu";
 import { RiTailwindCssFill, RiPlantLine, RiChatVoiceAiLine } from "react-icons/ri";
-import { ListSkills } from '../../components/ListSkills/ListSkills';
 
 export const Skills = ({refSkills}) => {
   return (
