@@ -13,7 +13,7 @@ export const Experience = ({ refExperience }) => {
           </div>
           <div className="border-l-2 border-[#F2B5B9] pl-4">
             {experienceObj.map((objectData) => (
-              <div className="mb-38 ">
+              <div className="mb-38">
                 <div className='relative'>
                   <div className="h-[20px] w-[20px] absolute bg-[#DC676F] rounded-full left-[-27px] top-2 "></div>
                   <h2 className="text-[#DC676F] text-[25px]">{objectData.role}</h2>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavBar } from '../NavBar/Navbar'
 import { useNavbarAnimation } from '../../components/NavbarAnimation/NavbarAnimation'
- 
+
 export const Header = () => {
   const { navbarAnimationClasses } = useNavbarAnimation();
   return (

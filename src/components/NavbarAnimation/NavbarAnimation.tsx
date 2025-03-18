@@ -2,7 +2,7 @@ import {useEffect , useState} from 'react'
 
 export const useNavbarAnimation = (threshold: number = 210 ) => {
   const [scrolled, setScrolled] = useState(false)
-  const [_,setCurrentScroll] = useState (0) /* Se marca en que px de la pantalla va al hacer scroll */
+  const [_,setCurrentScroll] = useState (0) 
   const navbarAnimationClasses = () => {
     const animated = !scrolled ? " translate-y-[-100%] opacity-0 user-events-none " : "translate-y-0 opacity-100 "; 
     return `fixed z-40 transition-all ${animated}`

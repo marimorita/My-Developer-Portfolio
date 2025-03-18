@@ -13,8 +13,6 @@ export const Footer = () => {
           <FaWhatsapp className='text-white h-[60px] w-[60px] hover:scale-115 transition duration-300'/>
           <FaLinkedin className='text-white h-[60px] w-[60px] hover:scale-115 transition duration-300'/>
         </div>
-        <div className='flex justify-start'>
-        </div>
       </div>
     </>
   )

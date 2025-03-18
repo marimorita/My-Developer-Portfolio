@@ -1,7 +1,7 @@
 import React from 'react'
 import mari from "../../assets/Images/m.png";
 
-export const AboutMe = ({refAboutMe}) => {
+export const AboutMe = ({ refAboutMe }) => {
     return (
         <section ref={refAboutMe}>
             <div className='flex relative pt-18'>

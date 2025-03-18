@@ -8,7 +8,7 @@ import { FaFigma, FaReact, FaJava, FaNodeJs } from "react-icons/fa";
 import { LuHandshake, LuNotebookPen, LuBrain } from "react-icons/lu";
 import { RiTailwindCssFill, RiPlantLine, RiChatVoiceAiLine } from "react-icons/ri";
 
-export const Skills = ({refSkills}) => {
+export const Skills = ({ refSkills }) => {
   return (
     <section ref={refSkills}>
       <div className='grid grid-cols-2 items-center mt-10'>
@@ -35,11 +35,11 @@ export const Skills = ({refSkills}) => {
           </div>
           <div className='h-min-screen w-min-screen mt-10 border-l-2 ml-28 border-[#F2B5B9] relative'>
             <ul className='m-4 gap-6 flex flex-col'>
-            <ListSkills icon={<LuHandshake/>} listName={'TeamWork'}/>
-            <ListSkills icon={<TfiReload/>} listName={'Adaptability'}/>
-            <ListSkills icon={<LuBrain/>} listName={'Critical thinking'}/>
-            <ListSkills icon={<LuNotebookPen/>} listName={'Willingness to learn'}/>
-            <ListSkills icon={<RiChatVoiceAiLine/>} listName={'Effective communication'}/>
+              <ListSkills icon={<LuHandshake />} listName={'TeamWork'} />
+              <ListSkills icon={<TfiReload />} listName={'Adaptability'} />
+              <ListSkills icon={<LuBrain />} listName={'Critical thinking'} />
+              <ListSkills icon={<LuNotebookPen />} listName={'Willingness to learn'} />
+              <ListSkills icon={<RiChatVoiceAiLine />} listName={'Effective communication'} />
             </ul>
           </div>
         </div>
