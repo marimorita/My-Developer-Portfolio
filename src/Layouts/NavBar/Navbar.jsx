@@ -26,8 +26,8 @@ export const NavBar = () => {
   }
 
   return (
-    <div className='flex items-center justify-center w-[100%] ml-16 shadow-2xs '>
-      <ul className='p-2 px-10 list-none bg-[#ffe7e6] rounded-2xl flex justify-center gap-12 text-[#DC676F] text-[22px] z-50'>
+    <div className='flex items-center justify-center w-[100%] ml-16'>
+      <ul className='p-2 px-10 list-none bg-[#ffe7e6] rounded-2xl flex justify-center gap-12 text-[#DC676F] text-[22px] z-50 shadow-2xs'>
         <ButtonsNavbar clickButton={aboutMeButton} buttonName={'About Me'} />
         <ButtonsNavbar clickButton={SkillsButton} buttonName={'Skills'} />
         <ButtonsNavbar clickButton={ProjectsButton} buttonName={'Projects'} />
