@@ -13,8 +13,8 @@ export const Projects = ({ refProjects }) => {
           <IoCodeSlash className='text-[#DC676F] text-[50px] m-2' />
         </div>
         <div className='flex flex-wrap gap-[5rem] justify-center mt-6 '>
-          <Card imgApp={ds} h1={'DataSport'} text={'DataSport is the final project of my technology. Is a project to managmente better gyms and spaces sports'} />
-          <Card imgApp={edua} h1={'EDUA AT'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic commodi atque saepe maxime nihil, labore vitae cumque ad dolore quo iusto praesentium, id ipsam odit rem error fugiat. Similique, delectus?'} />
+          <Card imgApp={ds} h1={'DataSport'} text={'DataSport is the final project of my technology. Is a project to managmente better gyms and spaces sports'} linkRepo={'https://github.com/marimorita/DataSportFront.git'} linkDemo={'https://datasporrt.vercel.app/'} />
+          <Card imgApp={edua} h1={'EDUA AT'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic commodi atque saepe maxime nihil, labore vitae cumque ad dolore quo iusto praesentium, id ipsam odit rem error fugiat. Similique, delectus?'} linkRepo={'https://github.com/marimorita/EDUA'} linkDemo={'https://eduaalcaldia.netlify.app/'}/>
         </div>
       </div>
     </section>
