@@ -5,7 +5,7 @@ import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 export const Footer = () => {
   return (
     <>
-      <div className='bg-[#DC676F] h-min-screen p-[1px] mt-26'>
+      <div className='bg-[#DC676F] h-min-screen p-[1px] mt-24'>
         <div className="flex flex-wrap-reverse gap-16 m-10 justify-end items-center">
           <p className='text-white text-[30px] mr-[30rem] hover:underline hover:scale-105 duration-300'> ©Mariana Méndez </p>
           <a href="https://github.com/marimorita" target="_blank">

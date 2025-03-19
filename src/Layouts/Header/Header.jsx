@@ -5,11 +5,11 @@ import { useNavbarAnimation } from '../../components/NavbarAnimation/NavbarAnima
 export const Header = () => {
   const { navbarAnimationClasses } = useNavbarAnimation();
   return (
-    <div className='mx-auto max-w-[92%] px-4 py-2 '>
+    <div className='max-w-[95%] px-4 py-2 '>
       <section className={navbarAnimationClasses()}>
-        <div className='mt-6 flex justify-center items-center '><NavBar /></div>
+        <div className='mt-6 flex justify-center items-center ml-[2rem]'><NavBar /></div>
       </section>
-      <div className='mt-6 flex justify-center items-center '><NavBar /></div>
+      <div className='mt-6 flex justify-center items-center'><NavBar /></div>
       <div className='flex justify-end'>
         <div className='rounded-2xl'>
           <button className="z-10 border border-[#FFE7E7] relative top-10 font-medium text-[18px]  cursor-pointer text-center rounded-full px-6 py-2 overflow-hidden transition-all duration-300  bg-transparent group hover:border-[#FFE7E7] hover:text-white text-[#DC676F]">

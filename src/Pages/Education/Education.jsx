@@ -6,11 +6,11 @@ export const Education = ({ refEducation }) => {
   return (
     <section ref={refEducation}>
       <div className='bg-[#ffd4d3] rounded-2xl pb-[6rem] '>
-        <div className='flex flex-wrap mt-4'>
+        <div className='flex flex-wrap mt-2'>
           <FaBook className='text-[45px] text-[#DC676F] mt-3 ml-4 mr-2' />
           <h1 className='h1 text-[50px] text-[#DC676F]'>Education</h1>
         </div>
-        <div className="h-min-screen w-min-screen border-l-2 ml-6 border-[#F2B5B9] mt-4 flex flex-col gap-[8rem] ">
+        <div className="border-l-2 ml-6 border-[#F2B5B9] mt-4 flex flex-col gap-[8rem]">
           {educationObj.map((objectData) => (
             <div className='relative flex'>
               <div className="h-[20px] w-[20px] absolute bg-[#DC676F] rounded-full left-[-10px] top-6 "></div>
