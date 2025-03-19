@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from 'react'
+import React, { useContext } from 'react'
 import { Header } from "../../Layouts/Header/Header.jsx"
 import { Skills } from "../Skills/Skills.jsx";
 import { Footer } from "../../Layouts/Footer/Footer.jsx";
